@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+	
+	<style type="text/css">
+nav {
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: #FCD9DA;
+    margin: auto;
+}
+header, nav, main , footer{
+    margin: 0 auto;
+    width: 1200px;
+}
+*   {
+    padding: 0;
+    margin: 0;
+}
+
+#navegacion li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    color: #621D1E;
+    font-size: 18px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#navegacion li a {
+    border: 5px solid #4E9CA6;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #A2E3DF;
+}
+	#navegacion li a:link{
+    color: crimson;
+    font-size: 18px;
+    text-decoration: none;
+	}
+#navegacion li a:hover  {
+    color: #263110;
+    font-size: 20px;
+}
+		h1{
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+    #gros {
+}
+		footer{
+				width: 960px;
+				height: 80px;
+				background-color:#220D50}
+		footer h6{
+    width: 960px;
+    height: 40px;
+    margin: 0;
+    text-align: center;
+    color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    </style>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>TABLAS</h1>
+</header>
+<nav id="gros">
+		<ul id="navegacion">
+	<li><a href="../index.html" id="naveini">INICIO</a></li>
+			<br><br>
+	<li><a href="formatos_texto.html">Formatos de texto</a></li>
+	<li><a href="Listas.html">Listas</a>&nbsp;</li>
+	<li><a href="Enlaces.html">Enlaces</a></li>
+	<li><a href="Imagenes.html">Imagenes</a>&nbsp;&nbsp;</li>
+	<li><a href="audios.html">Audios</a>&nbsp;&nbsp;</li>
+	<li><a href="videos.html">Videos</a>&nbsp;&nbsp;</li>
+	<li><a href="Formularios.html">Formularios</a>&nbsp;&nbsp;</li>
+</ul>
+		</nav>
+<main>
+  <section>
+    <h2>Tabla simple&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo quis, provident. Voluptates quia nesciunt asperiores minima velit voluptate voluptatum sunt vel ipsam earum consequuntur officiis eligendi quidem quis fuga reprehenderit ipsa dolorum autem corrupti porro praesentium aspernatur, beatae, odit debitis? Laboriosam neque consequuntur velit, quo sunt beatae ut harum illum deserunt sequi expedita perspiciatis odio facere voluptatibus dolor, nihil veritatis non aliquam porro officiis ipsa, facilis inventore laudantium. Dolores obcaecati nesciunt itaque tempora alias quaerat blanditiis adipisci ab quidem maiores est repellat, maxime eius? Incidunt itaque soluta possimus, natus suscipit, rem unde eaque officiis, alias nostrum, earum ipsa error.</p>
+<table border="1">
+	<thead>
+		<tr>
+			<th>NOMBRE</th>
+			<th>APELLIDOS</th>
+			<th>TELEFONO</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Karla</td>
+			<td>Suarez Palacios</td>
+			<td>2223254462</td>
+		</tr>
+		<tr>
+			<td>Cesar</td>
+			<td>Serrano Lopez</td>
+			<td>2269597815</td>
+		</tr>
+		<!--Shortcut (tr>td*3)*3-->
+		<tr>
+			<td>Soledad</td>
+			<td>Hernandez Diaz</td>
+			<td>2229252863</td>
+		</tr>
+		<tr>
+			<td>Isabel</td>
+			<td>Perez Diaz</td>
+			<td>2224645831</td>
+		</tr>
+		<tr>
+			<td>Pedro</td>
+			<td>Garcia Lopez</td>
+			<td>2223251477</td>
+		</tr>
+	</tbody>
+	<tfoot></tfoot> 
+</table>
+</section>
+  <section>
+    <h2>Tabla modificada en CSS&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo quis, provident. Voluptates quia nesciunt asperiores minima velit voluptate voluptatum sunt vel ipsam earum consequuntur officiis eligendi quidem quis fuga reprehenderit ipsa dolorum autem corrupti porro praesentium aspernatur, beatae, odit debitis? Laboriosam neque consequuntur velit, quo sunt beatae ut harum illum deserunt sequi expedita perspiciatis odio facere voluptatibus dolor, nihil veritatis non aliquam porro officiis ipsa, facilis inventore laudantium. Dolores obcaecati nesciunt itaque tempora alias quaerat blanditiis adipisci ab quidem maiores est repellat, maxime eius? Incidunt itaque soluta possimus, natus suscipit, rem unde eaque officiis, alias nostrum, earum ipsa error.</p>
+    <table border="1" id="tabla_1">
+      <thead>
+        <tr>
+          <th>NOMBRE</th>
+          <th>APELLIDOS</th>
+          <th>TELEFONO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+			<td>Karla</td>
+			<td>Suarez Palacios</td>
+			<td>2223254462</td>
+		</tr>
+		<tr>
+			<td>Cesar</td>
+			<td>Serrano Lopez</td>
+			<td>2269597815</td>
+		</tr>
+		<!--Shortcut (tr>td*3)*3-->
+		<tr>
+			<td>Soledad</td>
+			<td>Hernandez Diaz</td>
+			<td>2229252863</td>
+		</tr>
+		<tr>
+			<td>Isabel</td>
+			<td>Perez Diaz</td>
+			<td>2224645831</td>
+		</tr>
+		<tr>
+			<td>Pedro</td>
+			<td>Garcia Lopez</td>
+			<td>2223251477</td>
+		</tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>&nbsp;Tabla utilizando hover</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo quis, provident. Voluptates quia nesciunt asperiores minima velit voluptate voluptatum sunt vel ipsam earum consequuntur officiis eligendi quidem quis fuga reprehenderit ipsa dolorum autem corrupti porro praesentium aspernatur, beatae, odit debitis? Laboriosam neque consequuntur velit, quo sunt beatae ut harum illum deserunt sequi expedita perspiciatis odio facere voluptatibus dolor, nihil veritatis non aliquam porro officiis ipsa, facilis inventore laudantium. Dolores obcaecati nesciunt itaque tempora alias quaerat blanditiis adipisci ab quidem maiores est repellat, maxime eius? Incidunt itaque soluta possimus, natus suscipit, rem unde eaque officiis, alias nostrum, earum ipsa error.</p>
+	  <br>
+    <table border="1" class="tabla_2">
+      <thead>
+        <tr>
+          <th>NOMBRE</th>
+          <th>APELLIDOS</th>
+          <th>TELEFONO</th>
+        </tr>
+      </thead>
+      <tbody>
+       <tr>
+			<td>Karla</td>
+			<td>Suarez Palacios</td>
+			<td>2223254462</td>
+		</tr>
+		<tr>
+			<td>Cesar</td>
+			<td>Serrano Lopez</td>
+			<td>2269597815</td>
+		</tr>
+		<!--Shortcut (tr>td*3)*3-->
+		<tr>
+			<td>Soledad</td>
+			<td>Hernandez Diaz</td>
+			<td>2229252863</td>
+		</tr>
+		<tr>
+			<td>Isabel</td>
+			<td>Perez Diaz</td>
+			<td>2224645831</td>
+		</tr>
+		<tr>
+			<td>Pedro</td>
+			<td>Garcia Lopez</td>
+			<td>2223251477</td>
+		</tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla con la propiedad nth-child&nbsp; &nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo quis, provident. Voluptates quia nesciunt asperiores minima velit voluptate voluptatum sunt vel ipsam earum consequuntur officiis eligendi quidem quis fuga reprehenderit ipsa dolorum autem corrupti porro praesentium aspernatur, beatae, odit debitis? Laboriosam neque consequuntur velit, quo sunt beatae ut harum illum deserunt sequi expedita perspiciatis odio facere voluptatibus dolor, nihil veritatis non aliquam porro officiis ipsa, facilis inventore laudantium. Dolores obcaecati nesciunt itaque tempora alias quaerat blanditiis adipisci ab quidem maiores est repellat, maxime eius? Incidunt itaque soluta possimus, natus suscipit, rem unde eaque officiis, alias nostrum, earum ipsa error.</p>
+    <table width="80%" border="1" cellspacing="2" id="tabla_3">
+	<thead>
+		<tr>
+			<th>NOMBRE</th>
+			<th>EDAD</th>
+			<th>EMAIL</th>
+			<th>TELEFONO</th>
+		</tr>
+	  </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Montserrat Dominguez</td>
+          <td class="celda_centrada">&nbsp;15</td>
+          <td>&nbsp;mar21@gmail.com</td>
+          <td>&nbsp;2225186954</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Rodrigo Perez</td>
+          <td class="celda_centrada">&nbsp;20</td>
+          <td>&nbsp;roy58@gmail.com</td>
+          <td>&nbsp;2226598541</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Rosalba Garcia</td>
+          <td class="celda_centrada">&nbsp;19</td>
+          <td>&nbsp;rosa08@gmail.com</td>
+          <td>&nbsp;2224156314</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Montse  Flores</td>
+          <td class="celda_centrada">&nbsp;14</td>
+          <td>&nbsp;mon09@gmail.com</td>
+          <td>&nbsp;2226598741</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Luis&nbsp; Paz</td>
+          <td class="celda_centrada">&nbsp;16</td>
+          <td>&nbsp;luis59@gmail.com</td>
+          <td>&nbsp;2223658914</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Felipe Calderon</td>
+          <td class="celda_centrada">&nbsp;21</td>
+          <td>&nbsp;felip65@gmail.com</td>
+          <td>&nbsp;2221548632</td>
+        </tr>
+		  <tr>
+		  	<td>Maria Salcedo</td>
+		  	<td class="celda_centrada">18</td>
+		  	<td>mari65@gmail.com</td>
+		  	<td>2225188419</td>
+		  </tr>
+		  <tr>
+		  	<td>Maria Salcedo</td>
+		  	<td class="celda_centrada">18</td>
+		  	<td>mari65@gmail.com</td>
+		  	<td>2225188419</td>
+		  </tr>
+		  <tr>
+		  	<td>Maria Salcedo</td>
+		  	<td class="celda_centrada">18</td>
+		  	<td>mari65@gmail.com</td>
+		  	<td>2225188419</td>
+		  </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+<h2>Tabla receptiva&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia explicabo quis, provident. Voluptates quia nesciunt asperiores minima velit voluptate voluptatum sunt vel ipsam earum consequuntur officiis eligendi quidem quis fuga reprehenderit ipsa dolorum autem corrupti porro praesentium aspernatur, beatae, odit debitis? Laboriosam neque consequuntur velit, quo sunt beatae ut harum illum deserunt sequi expedita perspiciatis odio facere voluptatibus dolor, nihil veritatis non aliquam porro officiis ipsa, facilis inventore laudantium. Dolores obcaecati nesciunt itaque tempora alias quaerat blanditiis adipisci ab quidem maiores est repellat, maxime eius? Incidunt itaque soluta possimus, natus suscipit, rem unde eaque officiis, alias nostrum, earum ipsa error.</p>
+    <div id="overflow_x">
+      <table width="80%" border="1" cellspacing="2" id="tabla_4">
+        <thead>
+		<tr>
+            <th scope="col">&nbsp;Nombre</th>
+            <th scope="col">Apellido&nbsp;</th>
+            <th scope="col">Ronda 1&nbsp;</th>
+            <th scope="col">&nbsp;Ronda 2</th>
+            <th scope="col">Ronda 3&nbsp;</th>
+            <th scope="col">Ronda 4&nbsp;</th>
+            <th scope="col">Ronda 5&nbsp;</th>
+            <th scope="col">Ronda 6&nbsp;</th>
+            <th scope="col">Ronda 7&nbsp;</th>
+            <th scope="col">&nbsp;Ronda 8</th>
+            <th scope="col">Ronda 9&nbsp;</th>
+            <th scope="col">Ronda 10&nbsp;</th>
+          </tr>
+	    </thead>
+		  <tbody>
+          
+          <tr>
+            <td>&nbsp;Maria</td>
+            <td>&nbsp;Diaz</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;5</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;5</td>
+            <td>&nbsp;9</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Felipe</td>
+            <td>&nbsp;Lopez</td>
+            <td>8&nbsp;</td>
+            <td>&nbsp;10</td>
+            <td>&nbsp;5</td>
+            <td>&nbsp;0</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;3</td>
+            <td>&nbsp;2</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Marcela</td>
+            <td>&nbsp;Rey</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;0</td>
+            <td>8</td>
+            <td>&nbsp;7</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;0</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;0</td>
+          </tr>
+			
+        </tbody>
+      </table>
+    </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Aranza Mendoza</h6>
+</footer>
+</body>
+</html>

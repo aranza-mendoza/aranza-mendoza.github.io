@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<style type="text/css">
+#video_1 {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.video_2 {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+	nav {
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: #574949;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+header, nav, main , footer{
+    margin: 0 auto;
+    width: 1200px;
+}
+*   {
+    padding: 0;
+    margin: 0;
+}
+footer{
+				width: 960px;
+				height: 80px;
+				background-color:#220D50}
+		footer h6{
+    width: 960px;
+    height: 40px;
+    margin: 0;
+    text-align: center;
+    color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+			font-size: 17px; }
+		h1{
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+#navegacion li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    color: #621D1E;
+    font-size: 18px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#navegacion li a {
+    border: 5px solid #4E9CA6;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #A2E3DF;
+    width: 100px;
+}
+	#navegacion li a:link{
+    color: crimson;
+    font-size: 18px;
+    text-decoration: none;
+	}
+#navegacion li a:hover  {
+    color: #263110;
+    font-size: 20px;
+}
+    #gros {
+}
+.tabla_style1 {
+}
+#form4 {
+}
+#labelf4 {
+}
+#labelf4 {
+}
+#labelf4 {
+}
+#labelf4 {
+}
+#labelf4 {
+}
+#enviarf4 {
+}
+</style>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>FORMULARIOS</h1>
+</header>
+<nav id="gros">
+		<ul id="navegacion">
+	<li><a href="../index.html" id="naveini">INICIO</a></li>
+			<br><br>
+	<li><a href="formatos_texto.html">Formatos de texto</a></li>
+	<li><a href="Listas.html">Listas</a>&nbsp;</li>
+	<li><a href="Tablas.html" target="new">Tablas</a>&nbsp;</li>
+	<li><a href="Enlaces.html">Enlaces</a></li>
+	<li><a href="audios.html">Audios</a>&nbsp;&nbsp;</li>
+	<li><a href="Imagenes.html">Imagenes</a>&nbsp;&nbsp;</li>
+	<li><a href="videos.html">Videos</a>&nbsp;&nbsp;</li>
+</ul>
+		</nav>
+<main>
+  <section>
+    <h2>Formulario 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quasi fugit veritatis laboriosam ut accusamus aut, vitae, sapiente minima. Cumque nulla at, impedit repellendus totam amet voluptatibus doloremque eius quo!</p>
+    <form action="Procesamiento.html" method="get" name="form1" id="form1">
+      <label for="Nombre">Nombre:</label>
+      <input type="text" name="Nombre" id="Nombre">
+	  <label for="Apellido">Apellido:</label>
+      <input type="text" name="Apellido" id="Apellido">
+      <input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+	
+    </form>
+	
+	 
+  </section>
+<section>
+    <h2>Formulario con radiobutton</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quasi fugit veritatis laboriosam ut accusamus aut, vitae, sapiente minima. Cumque nulla at, impedit repellendus totam amet voluptatibus doloremque eius quo!</p>
+    <form action="Procesamiento.html" method="get" name="form2" id="form2">
+	<label>Elige tu Genero</label>
+      <table width="200" border="1" class="tabla_style1 celda_centrada">
+        <tr>
+          <td>
+            <label>
+            <input type="radio" name="Genero" value="Femenino" id="Genero_0">
+            Femenino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="Masculino" id="Genero_1">
+            Masculino</label></td>
+        </tr>
+      </table>
+		<br>
+      <label for="Pais">Pais:</label>
+      <select name="select" id="select">
+        <option value="CDMX">Mexico</option>
+        <option value="Esp">España</option>
+        <option value="Ita">Italia</option>
+        <option value="EUA">Estados Unidos</option>
+      </select>
+	<p>
+		<br>
+    <label>
+      &nbsp;&nbsp;¿Dondé residiras durante tu estancia en el país?&nbsp;<br>
+    </label>
+   <br>
+	  <label>
+      <input type="checkbox" name="RESIDENCIA_TEMPORAL" value="domicilio_particular" id="RESIDENCIA_TEMPORAL_0">
+      Casa de un amigo</label>
+<br>
+    <label>
+      <input type="checkbox" name="RESIDENCIA_TEMPORAL" value="Hotel" id="RESIDENCIA_TEMPORAL_1">
+      Hotel</label>
+    <br>
+    <label>
+      <input type="checkbox" name="RESIDENCIA_TEMPORAL" value="Airbnb" id="RESIDENCIA_TEMPORAL_2">
+      Airbnb</label>
+    <br>
+	  
+</p>
+<input name="submit2" type="submit" id="submit2" formmethod="GET" value="Enviar">
+    </form>
+    
+  </section>
+  <section>
+    <h2>Formulario de reserva (imput diferents)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quasi fugit veritatis laboriosam ut accusamus aut, vitae, sapiente minima. Cumque nulla at, impedit repellendus totam amet voluptatibus doloremque eius quo!</p>
+	  <br>
+	<form id="form4">
+		<br>
+		<label for="birthday" id="labelf4">Fecha de nacimiento:</label>
+  <input type="date" id="Nacimiento" name="Nacimiento">
+		<br><br>
+  <label for="favcolor" id="labelf4">Selecciona tu color favorito:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff000">
+		<br><br>
+  <label for="birthday" id="labelf4">Fecha de nacimiento:</label>
+  <input type="date" id="Nacimiento" name="Nacimiento">
+		<br><br>
+  
+		<label for="week" id="labelf4">Seleciona la semana de reservación&nbsp;</label>
+  <input type="week" id="week" name="week">
+		<br><br>
+		<label for="appt" id="labelf4">Selecione la hora de entrada&nbsp; :</label>
+  <input type="time" id="appt" name="appt">
+		<br><br>
+		<input type="submit" id="enviarf4" formaction="Procesamiento.html" value="Enviar">
+</form>
+	  
+  </section>
+  <section>
+    <h2>Formulario de contacto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quasi fugit veritatis laboriosam ut accusamus aut, vitae, sapiente minima. Cumque nulla at, impedit repellendus totam amet voluptatibus doloremque eius quo!</p>
+    <form id="form3" name="form3" method="get">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+		<br><br>
+      <label for="textarea">Comentarios:</label>
+      <textarea name="textarea" maxlength="200" id="textarea">Escribe aqui...</textarea>
+      <input name="submit3" type="submit" id="submit3" formaction="Procesamiento.html" value="Enviar">
+    </form>
+	 
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Aranza Mendoza</h6>
+</footer>
+</body>
+</html>

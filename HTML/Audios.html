@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Audios</title>
+<style type="text/css">
+@import url("css/style_page.css");
+	nav {
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: #574949;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+header, nav, main , footer{
+    margin: 0 auto;
+    width: 1200px;
+}
+*   {
+    padding: 0;
+    margin: 0;
+}
+
+#navegacion li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    color: #621D1E;
+    font-size: 18px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#navegacion li a {
+    border: 5px solid #4E9CA6;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #A2E3DF;
+    width: 100px;
+}
+	#navegacion li a:link{
+    color: crimson;
+    font-size: 18px;
+    text-decoration: none;
+	}
+#navegacion li a:hover  {
+    color: #263110;
+    font-size: 20px;
+}
+	footer{
+				width: 960px;
+				height: 80px;
+				background-color:#220D50}
+		footer h6{
+    width: 960px;
+    height: 40px;
+    margin: 0;
+    text-align: center;
+    color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+			font-size: 17px; }
+		h1{
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+    #gros {
+}
+</style>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>AUDIOS&nbsp;</h1>
+</header>
+<nav id="gros">
+		<ul id="navegacion">
+	<li><a href="../index.html" id="naveini">INICIO</a></li>
+			<br><br>
+	<li><a href="formatos_texto.html">Formatos de texto</a></li>
+	<li><a href="Listas.html">Listas</a>&nbsp;</li>
+	<li><a href="Tablas.html" target="new">Tablas</a>&nbsp;</li>
+	<li><a href="Enlaces.html">Enlaces</a></li>
+	<li><a href="Imagenes.html">Imagenes</a>&nbsp;&nbsp;</li>
+	<li><a href="videos.html">Videos</a>&nbsp;&nbsp;</li>
+	<li><a href="Formularios.html">Formularios</a>&nbsp;&nbsp;</li>
+</ul>
+		</nav>
+<main>
+  <section>
+    <h2>Audio desde codificacion HTML</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, dicta. Hic et, quas iste consequuntur cum sunt quae, rerum dolorum voluptates id necessitatibus. Fugiat maxime itaque minus magni eaque iusto.</p>
+	  <audio controls>
+	  	<source src="../Medios/audios/CrowdCheerApplsOut PE944402.mp3" type="audio/mp3">
+		  Tu navegador no es compatible con el formato audio mp3
+	  </audio>
+  </section>
+  <section>
+    <h2>Audio desde Dreamweaver con muted y autoplay</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, dicta. Hic et, quas iste consequuntur cum sunt quae, rerum dolorum voluptates id necessitatibus. Fugiat maxime itaque minus magni eaque iusto.</p>
+    <audio controls="controls" muted="muted" autoplay="autoplay" >
+      <source src="../Medios/audios/Peachy - half.cool.mp3" type="audio/mp3">
+    </audio>
+  </section>
+  <section>
+    <h2>Audio con reproduccion ciclica (loop) </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, dicta. Hic et, quas iste consequuntur cum sunt quae, rerum dolorum voluptates id necessitatibus. Fugiat maxime itaque minus magni eaque iusto.</p>
+    <audio controls="controls" muted="muted" autoplay="autoplay" loop="loop" >
+      <source src="../Medios/audios/mi_explosion_03_hpx.mp3" type="audio/mp3">
+    </audio>
+  </section>
+  <section>
+    <h2>Audio externo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, dicta. Hic et, quas iste consequuntur cum sunt quae, rerum dolorum voluptates id necessitatibus. Fugiat maxime itaque minus magni eaque iusto.</p>
+	  <iframe id='audio_93870465' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_93870465_6_1.html' loading='lazy'></iframe>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Aranza Mendoza</h6>
+</footer>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Videos</title>
+<style type="text/css">
+#video_1 {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.video_2 {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+	nav {
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: #574949;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+header, nav, main , footer{
+    margin: 0 auto;
+    width: 1200px;
+}
+*   {
+    padding: 0;
+    margin: 0;
+}
+
+#navegacion li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    color: #621D1E;
+    font-size: 18px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+footer{
+				width: 960px;
+				height: 80px;
+				background-color:#220D50}
+		footer h6{
+    width: 960px;
+    height: 40px;
+    margin: 0;
+    text-align: center;
+    color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+			font-size: 17px; }
+		h1{
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+#navegacion li a {
+    border: 5px solid #4E9CA6;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #A2E3DF;
+    width: 100px;
+}
+	#navegacion li a:link{
+    color: crimson;
+    font-size: 18px;
+    text-decoration: none;
+	}
+#navegacion li a:hover  {
+    color: #263110;
+    font-size: 20px;
+}
+    #gros {
+}
+#naveini {
+}
+</style>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>VIDEOS</h1>
+</header>
+<nav id="gros">
+		<ul id="navegacion">
+	<li><a href="../index.html" id="naveini">INICIO</a></li>
+			<br><br>
+	<li><a href="formatos_texto.html">Formatos de texto</a></li>
+	<li><a href="Listas.html">Listas</a>&nbsp;</li>
+	<li><a href="Tablas.html" target="new">Tablas</a>&nbsp;</li>
+	<li><a href="Enlaces.html">Enlaces</a></li>
+	<li><a href="audios.html">Audios</a>&nbsp;&nbsp;</li>
+	<li><a href="Imagenes.html">Imagenes</a>&nbsp;&nbsp;</li>
+	<li><a href="Formularios.html">Formularios</a>&nbsp;&nbsp;</li>
+</ul>
+		</nav>
+<main>
+  <section>
+    <h2>Video desde Codigo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quasi fugit veritatis laboriosam ut accusamus aut, vitae, sapiente minima. Cumque nulla at, impedit repellendus totam amet voluptatibus doloremque eius quo!</p>
+    <video width="640" height="360" poster="../Imagenes/razascaballos.png" controls="controls" >
+      <source src="../Medios/videos/video.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <h2>Video desde Dreamweaver&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quasi fugit veritatis laboriosam ut accusamus aut, vitae, sapiente minima. Cumque nulla at, impedit repellendus totam amet voluptatibus doloremque eius quo!</p>
+    <video controls="controls" id="video_1" >
+      <source src="../Medios/videos/pexels-kampus-production-8174326.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <h2>Video en reproduccion automatica (autoplay) y ciclica (loop) </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quasi fugit veritatis laboriosam ut accusamus aut, vitae, sapiente minima. Cumque nulla at, impedit repellendus totam amet voluptatibus doloremque eius quo!</p>
+    <video class="video_2" controls="controls" muted="muted" autoplay="autoplay" loop="loop" >
+      <source src="../Medios/videos/Kid Jumping On A Trampoline.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section>
+    <h2>Video desde repositorio: Youtube</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quasi fugit veritatis laboriosam ut accusamus aut, vitae, sapiente minima. Cumque nulla at, impedit repellendus totam amet voluptatibus doloremque eius quo!</p>
+	  <iframe width="50%" height="50%" src="https://www.youtube.com/embed/kffacxfA7G4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <iframe width="50%" height="50%" src="https://www.youtube.com/embed/kffacxfA7G4?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Aranza Mendoza</h6>
+</footer>
+</body>
+</html>
